@@ -7,11 +7,12 @@ class Password:
     def __init__(self, phrase, size, password):
         self.phrase = phrase
         self.size = size
-        self.password = password
+        self.password = password 
 
 
 def gen_pass(input,self):
-    self.password = "password" + input
+    self.password = "password" + input.replace(" ", "")
+
 
 def copy_to_clipboard(str):
     #str = self.password
@@ -25,7 +26,7 @@ def main(argv):
     window = Tk()
     window.title("Password Generator")
     window.geometry('350x200')
-    self = Password(" ",0," ",FALSE)
+    self = Password(" ",0," ")
     genned = FALSE
 
     Label(window, text=" Containing Phrase").grid(row=10)
