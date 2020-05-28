@@ -4,11 +4,10 @@ from tkinter import *
 
 
 class Password:
-    def __init__(self, phrase, size, password, genned):
+    def __init__(self, phrase, size, password):
         self.phrase = phrase
         self.size = size
         self.password = password
-        self.genned = genned
 
 
 def gen_pass(input,self):
