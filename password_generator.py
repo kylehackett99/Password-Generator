@@ -2,7 +2,6 @@ import pyperclip
 import sys
 from tkinter import *
 
-
 class Password:
     def __init__(self, phrase, size, password):
         self.phrase = phrase
@@ -10,12 +9,12 @@ class Password:
         self.password = password 
 
 
+
 def gen_pass(input,self):
     self.password = "password" + input.replace(" ", "")
 
 
 def copy_to_clipboard(str):
-    #str = self.password
     pyperclip.copy(str)
     pyperclip.paste(str)
 
@@ -50,12 +49,6 @@ def main(argv):
     run_btn.grid(column=1, row=15)
     print("!")
     
-
-
-   
-
-    
-
     window.mainloop()
     pass
 
