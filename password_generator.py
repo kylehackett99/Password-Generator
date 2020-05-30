@@ -6,7 +6,8 @@ class Password:
     def __init__(self, phrase, size, password):
         self.phrase = phrase
         self.size = size
-        self.password = password 
+        self.password = password
+
 
 
 
