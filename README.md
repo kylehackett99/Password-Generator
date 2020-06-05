@@ -21,6 +21,7 @@ Clone this repo and run using python password_generator.py
 * [Python](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Pyperclip](https://pypi.org/project/pyperclip/) - The clipboard python module used
 * [Tkinter](https://wiki.python.org/moin/TkInter) - The GUI module that was used
+* [Lookup_pwned_api]()https://github.com/mikepound/pwned-search/blob/master/pwned.py) - Hash checker
 
 
 ## Authors
