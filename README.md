@@ -1,6 +1,8 @@
 # Password Generator
 
-One Paragraph of project description goes here
+Do you want a safe password? One that won't be easily cracked? And hasn't been already cracked? Well this is the python program for you!
+This program will give you the option of inputting a phrase, and selecting a password length. From there it will generate a safe password
+using a more secure version of the phrase, and add/remove characters to make it the desired length. It will tell you if the password generated is safe or not for you to use.
 
 ## Getting Started
 
